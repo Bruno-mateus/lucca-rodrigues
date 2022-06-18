@@ -23,7 +23,7 @@ export default function ScrollTop() {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <button onClick={() => scrollToTop()} className="fixed bottom-4 right-1 bg-slate-800 p-1 rounded-xl	" style={{ display: visible ? 'inline' : 'none' }} >
+    <button onClick={() => scrollToTop()} className="fixed bottom-4 right-3 bg-slate-800 p-2 rounded-xl text-1xl	" style={{ display: visible ? 'inline' : 'none' }} >
       <AiOutlineArrowUp fill='white' />
     </button >
   )
