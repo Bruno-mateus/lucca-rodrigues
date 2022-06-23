@@ -4,6 +4,7 @@ import EdEduardoReidy from "../../images/Eduardo Reidy/EdEduardoReidy.png"
 import EdEduardoReidyInside from "../../images/Eduardo Reidy/EdEduardoReidy-inside.png"
 import EdEduardoReidyInsideTwo from "../../images/Eduardo Reidy/EdEduardoReidy.png"
 import ScrollTop from "../../components/ScrollTop";
+import { Footer } from "../../components/Footer";
 
 export default function Eduardo() {
   return (
@@ -70,7 +71,7 @@ export default function Eduardo() {
         </div>
         <ScrollTop />
       </div>
-
+      <Footer/>s
     </>
   )
 }

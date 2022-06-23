@@ -2,6 +2,7 @@ import { Header } from "../../components/Header";
 import MarshalField from "../../images/Henry Hobson Richardson/MarshallField.png"
 import HenryHobson from "../../images/Henry Hobson Richardson/HenryHobson.png"
 import ScrollTop from "../../components/ScrollTop";
+import { Footer } from "../../components/Footer";
 
 export default function Henry() {
   return (
@@ -28,7 +29,7 @@ export default function Henry() {
         </div>
         <ScrollTop />
       </div>
-
+    <Footer/>
     </>
   )
 }

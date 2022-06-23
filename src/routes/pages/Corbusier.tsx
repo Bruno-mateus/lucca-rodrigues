@@ -5,6 +5,7 @@ import capelaRonchamp from '../../images/Le Corbusier/capela-ronchamp.png'
 import capelaRonchampBack from '../../images/Le Corbusier/capela-ronchamp-back.png'
 import capelaRonchampInside from '../../images/Le Corbusier/capela-ronchamp-inside.png'
 import ScrollTop from "../../components/ScrollTop";
+import { Footer } from "../../components/Footer";
 
 
 export default function Corbusier() {
@@ -48,7 +49,7 @@ export default function Corbusier() {
 
         <ScrollTop />
       </div>
-
+      <Footer/>
     </>
 
   )
