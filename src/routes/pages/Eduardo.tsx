@@ -71,7 +71,7 @@ export default function Eduardo() {
         </div>
         <ScrollTop />
       </div>
-      <Footer/>s
+      <Footer/>
     </>
   )
 }
