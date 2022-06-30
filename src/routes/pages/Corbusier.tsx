@@ -9,15 +9,16 @@ import { Footer } from "../../components/Footer";
 
 
 export default function Corbusier() {
+
   return (
     <>
       <Header />
 
 
-      <div className="container">
+      <div className="container dark:bg-zinc-900 ">
 
         <div className="content">
-          <h1>Le Corbusier</h1>
+          <h1 >Le Corbusier</h1>
           <img src={corbusier} alt="Le Corbusier" />
           <p>
             Charles Edouard Jeanneret, conhecido como Le Corbusier, nasceu em 6 de outubro de 1887 em Chaux-de-Fonds, Suíça. Aos 13 anos entrou para a escola de arte. Aos 15 anos, recebeu um prêmio da Escola de Artes Decorativas de Turim pelo desenho de um relógio. Em 1906 realizou seu primeiro projeto: a casa de um fabricante de relógios. Em 1907 viajou pela Europa com o objetivo de aprimorar seus conhecimentos e no ano seguinte passou a trabalhar no escritório de Auguste Perret, pioneiro do concreto-armado, onde recebeu importante influência em sua formação profissional. Posteriormente fundou o Atelier das Artes Reunidas. Em 1910 viajou à Alemanha, onde trabalhou como desenhista no estúdio de Behrens,
@@ -49,7 +50,7 @@ export default function Corbusier() {
 
         <ScrollTop />
       </div>
-      <Footer/>
+      <Footer />
     </>
 
   )

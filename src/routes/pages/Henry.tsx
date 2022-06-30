@@ -4,11 +4,12 @@ import HenryHobson from "../../images/Henry Hobson Richardson/HenryHobson.png"
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
 
+
 export default function Henry() {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="container dark:bg-zinc-900">
         <div className="content">
           <h1>Henry Hobson Richardson</h1>
           <img src={HenryHobson} alt="Henry Hobson Richardson" />
@@ -28,8 +29,9 @@ export default function Henry() {
           </p>
         </div>
         <ScrollTop />
+
       </div>
-    <Footer/>
+      <Footer />
     </>
   )
 }

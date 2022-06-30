@@ -6,12 +6,13 @@ import EdEduardoReidyInsideTwo from "../../images/Eduardo Reidy/EdEduardoReidy.p
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
 
+
 export default function Eduardo() {
   return (
     <>
       <Header />
 
-      <div className="container">
+      <div className="container dark:bg-zinc-900">
         <div className="content">
           <h1>Eduardo Reidy</h1>
           <img src={eduardoReidy} alt="Eduardo Reidy" />
@@ -66,13 +67,14 @@ export default function Eduardo() {
           <p>
             A flexibilidade dos recintos é também assegurada verticalmente através da descontinuidade das lajes de cobertura, gerando três pés-direitos diferentes: oito metros, seis metros e quarenta centímetros, e três metros e sessenta centímetros. Essas alturas são variáveis para que o edifício possa abrigar obras de arte de tamanhos diversos.
             Os dois edifícios anexos ao pavilhão de exposição separam-se dele através de dois jardins diferentes. O primeiro é composto por dois retângulos que conformam um L. Nele estão o bar e o restaurante. O segundo possui contorno irregular e abriga o teatro.
-            
+
           </p>
           <img src={EdEduardoReidyInsideTwo} alt="Edifício Eduardo Reidy teatro" />
         </div>
         <ScrollTop />
+
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
