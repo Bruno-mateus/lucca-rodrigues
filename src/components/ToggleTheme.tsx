@@ -16,7 +16,7 @@ export function ToggleTheme() {
   }, [theme, colorTheme])
 
   return (
-    <button className="text-2xl text-orange-300 dark:text-white ease-in-out transition duration-300" onClick={() => setTheme(colorTheme)}>
+    <button className="text-2xl fixed right-3  bottom-16   p-1 text-orange-300 hover:text-black transition duration-300 dark:text-white ease-in-out  dark:hover:text-orange-300" onClick={() => setTheme(colorTheme)}>
       <AiFillBulb />
     </button >
   )
