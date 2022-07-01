@@ -5,7 +5,7 @@ import EdEduardoReidyInside from "../../images/Eduardo Reidy/EdEduardoReidy-insi
 import EdEduardoReidyInsideTwo from "../../images/Eduardo Reidy/EdEduardoReidy.png"
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
-import { Fade, JackInTheBox,Bounce,Hinge,Zoom } from "react-awesome-reveal";
+import { Bounce,Zoom } from "react-awesome-reveal";
 
 export default function Eduardo() {
   return (
