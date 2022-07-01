@@ -5,7 +5,7 @@ import EdEduardoReidyInside from "../../images/Eduardo Reidy/EdEduardoReidy-insi
 import EdEduardoReidyInsideTwo from "../../images/Eduardo Reidy/EdEduardoReidy.png"
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
-
+import Fade from 'react-reveal/Fade';
 
 export default function Eduardo() {
   return (
