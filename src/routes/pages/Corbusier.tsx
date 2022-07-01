@@ -52,6 +52,5 @@ export default function Corbusier() {
       </div>
       <Footer />
     </>
-
   )
 }
