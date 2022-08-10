@@ -23,13 +23,13 @@ export default function Eduardo() {
         <Zoom>
           <img src={eduardoReidy} alt="Eduardo Reidy" />
         </Zoom>
-       
+        <Slide cascade>
           <p>
             Filho de um inglês e de uma brasileira, Affonso Eduardo Reidy nasceu em Paris, em 26 de outubro de 1909. Entretanto, foi criado no Brasil, onde fez carreira.
             Ele estudou na Escola Nacional de Belas Artes do Rio de Janeiro e concluiu o curso de Arquitetura e Urbanismo em 1930.
             Foi estagiário de Alfredo Agache, urbanista responsável pelo plano diretor do Rio de Janeiro. Estavam previstos a remodelação, a expansão e o embelezamento da cidade. Durante esse projeto, Reidy foi concebido a três conceitos de Agache: a ideia de cidade; valorização das áreas públicas como espaços educativos para os cidadãos; o planejamento em larga escala.
           </p>
-          
+          </Slide>
           <p>
             Assim, a então capital do país ganha uma imagem cosmopolita, seguindo outras grandes metrópoles do mundo. Isso sem deixar de lado um dos seus principais atributos: a paisagem natural.
           </p>

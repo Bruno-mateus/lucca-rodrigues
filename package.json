@@ -10,7 +10,11 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "react": "^18.0.0",
+<<<<<<< HEAD
     "react-awesome-reveal": "^4.0.0",
+=======
+    "react-awesome-reveal": "^3.8.1",
+>>>>>>> 3849cdcc805fb6e6602407ed9d8e9f5bd95f2fab
     "react-dom": "^18.0.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0"
