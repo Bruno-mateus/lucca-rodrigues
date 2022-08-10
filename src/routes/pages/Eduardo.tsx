@@ -5,22 +5,31 @@ import EdEduardoReidyInside from "../../images/Eduardo Reidy/EdEduardoReidy-insi
 import EdEduardoReidyInsideTwo from "../../images/Eduardo Reidy/EdEduardoReidy.png"
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
+import { Bounce, Fade, Slide, Zoom } from "react-awesome-reveal";
+  
 
 
 export default function Eduardo() {
   return (
     <>
-      <Header />
 
+      <Header />
+      
       <div className="container dark:bg-zinc-900">
         <div className="content">
-          <h1>Eduardo Reidy</h1>
+        <Bounce cascade >
+        <h1>Eduardo Reidy</h1>
+        </Bounce>
+        <Zoom>
           <img src={eduardoReidy} alt="Eduardo Reidy" />
+        </Zoom>
+       
           <p>
             Filho de um inglês e de uma brasileira, Affonso Eduardo Reidy nasceu em Paris, em 26 de outubro de 1909. Entretanto, foi criado no Brasil, onde fez carreira.
             Ele estudou na Escola Nacional de Belas Artes do Rio de Janeiro e concluiu o curso de Arquitetura e Urbanismo em 1930.
             Foi estagiário de Alfredo Agache, urbanista responsável pelo plano diretor do Rio de Janeiro. Estavam previstos a remodelação, a expansão e o embelezamento da cidade. Durante esse projeto, Reidy foi concebido a três conceitos de Agache: a ideia de cidade; valorização das áreas públicas como espaços educativos para os cidadãos; o planejamento em larga escala.
           </p>
+          
           <p>
             Assim, a então capital do país ganha uma imagem cosmopolita, seguindo outras grandes metrópoles do mundo. Isso sem deixar de lado um dos seus principais atributos: a paisagem natural.
           </p>

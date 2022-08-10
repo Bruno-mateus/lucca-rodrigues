@@ -6,6 +6,7 @@ import capelaRonchampBack from '../../images/Le Corbusier/capela-ronchamp-back.p
 import capelaRonchampInside from '../../images/Le Corbusier/capela-ronchamp-inside.png'
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
+import { Bounce, Zoom } from "react-awesome-reveal";
 
 
 export default function Corbusier() {
@@ -18,8 +19,13 @@ export default function Corbusier() {
       <div className="container dark:bg-zinc-900 ">
 
         <div className="content">
+        <Bounce cascade >
           <h1 >Le Corbusier</h1>
+        </Bounce>
+        <Zoom>
           <img src={corbusier} alt="Le Corbusier" />
+        </Zoom>
+          
           <p>
             Charles Edouard Jeanneret, conhecido como Le Corbusier, nasceu em 6 de outubro de 1887 em Chaux-de-Fonds, Suíça. Aos 13 anos entrou para a escola de arte. Aos 15 anos, recebeu um prêmio da Escola de Artes Decorativas de Turim pelo desenho de um relógio. Em 1906 realizou seu primeiro projeto: a casa de um fabricante de relógios. Em 1907 viajou pela Europa com o objetivo de aprimorar seus conhecimentos e no ano seguinte passou a trabalhar no escritório de Auguste Perret, pioneiro do concreto-armado, onde recebeu importante influência em sua formação profissional. Posteriormente fundou o Atelier das Artes Reunidas. Em 1910 viajou à Alemanha, onde trabalhou como desenhista no estúdio de Behrens,
             outro pioneiro da construção moderna. No ano seguinte, percorreu a Europa Central e a Grécia, produzindo desenhos que seriam depois reunidos no livro Viagens no Oriente.

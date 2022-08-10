@@ -3,6 +3,7 @@ import MarshalField from "../../images/Henry Hobson Richardson/MarshallField.png
 import HenryHobson from "../../images/Henry Hobson Richardson/HenryHobson.png"
 import ScrollTop from "../../components/ScrollTop";
 import { Footer } from "../../components/Footer";
+import { Bounce, Zoom } from "react-awesome-reveal";
 
 
 export default function Henry() {
@@ -11,8 +12,13 @@ export default function Henry() {
       <Header />
       <div className="container dark:bg-zinc-900">
         <div className="content">
-          <h1>Henry Hobson Richardson</h1>
-          <img src={HenryHobson} alt="Henry Hobson Richardson" />
+          <Bounce>
+            <h1>Henry Hobson Richardson</h1>
+          </Bounce>
+          <Zoom>
+           <img src={HenryHobson} alt="Henry Hobson Richardson" />
+          </Zoom>
+          
           <p>H.H. Richardson, (nascido em 29 de setembro de 1838, Priestley Plantation, Louisiana, EUA - falecido em 27 de abril de 1886, Brookline, Massachusetts), arquiteto americano, o iniciador do renascimento românico nos Estados Unidos e um pioneiro figura no desenvolvimento de um estilo de arquitetura americano moderno e indígena.</p>
           <p>Sua inquietude e seu próprio instinto fizeram com que sua mudança do Sul para a Universidade de Harvard em 1855 fosse tão fácil quanto recompensadora. Harvard então oferecia mais contatos pessoais do que estímulo intelectual, círculos sociais nos quais ele entrava com facilidade. Isso fez com que conquistasse inúmeros clientes logo nos primeiros anos da faculdade.</p>
           <p>Em algum momento durante seus dias em Harvard, Richardson decidiu se tornar um arquiteto. Em Boston, ele foi cercado por prédios de granito simples que afetaram o melhor de seu trabalho posterior, mas para treinamento formal ele teve de ir para o exterior, pois não havia escolas de arquitetura nos Estados Unidos antes da Guerra Civil. Fluente em francês desde sua infância na Louisiana, ele estudou na École des Beaux-Arts em Paris de 1860 a 1862, quando a Guerra Civil em casa cortou sua renda. Em seguida, trabalhou no escritório do arquiteto francês Théodore Labrouste até retornar aos Estados Unidos em outubro de 1865. Em Paris, dominou o planejamento arquitetónico analítico que caracteriza grande parte de sua obra madura e que foi formulado por seu amigo, o arquiteto e professor Julien Guadet.</p>
